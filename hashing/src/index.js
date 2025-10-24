@@ -158,6 +158,6 @@ app.post("/api/authenticate/logout", (req, res) => {
 
 
 
-//Client secret :  TzFqb1yzEykWQ3I3odMwfV1OpuRzBAon
+//Client secret :  
 //client id : 1428575471209021582
 // redirect_url : http://localhost:3000/api/authenticate/discord/redirect
