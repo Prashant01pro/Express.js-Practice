@@ -1,0 +1,32 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.3",
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "jest": "^30.2.0",
+    "mongoose": "^8.19.1",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0"
+  }
+}
